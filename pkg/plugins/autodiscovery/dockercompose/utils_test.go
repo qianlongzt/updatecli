@@ -20,8 +20,8 @@ func TestSearchFiles(t *testing.T) {
 			rootDir:      "testdata/",
 			filePatterns: DefaultFilePattern,
 			expectedFiles: []string{
-				"testdata/docker-compose.yaml",
 				"testdata/compose.yaml",
+				"testdata/docker-compose.yaml",
 			},
 		},
 	}
